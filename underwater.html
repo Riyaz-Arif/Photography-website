@@ -1,0 +1,396 @@
+<html>
+<title>Underwater Photography</title>
+<link rel="stylesheet" href="underwater.css">
+<head>
+<style>
+*{margin:0rem;
+  padding:0rem;
+  box-size:border-box;}
+
+.underwater-page{border:none;
+             background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKPTdbgLP3CFKN7qd1yjOXU5RyIlmudBmKvg&s");
+             background-size:cover;
+             padding:10px;
+             display:grid;
+             grid-template-columns:auto auto auto;}
+
+.underwater-image1-box{border:none;
+            display:block;
+            padding:2rem;
+            width:17.5rem;
+            margin:1rem;}
+
+.underwater-image1-text{border:2px outset grey;
+             border-radius:8px;
+             margin:0.5rem 0rem 0rem 5.6rem;
+             padding:0rem 0.4rem;
+             font-size:1.5rem;
+             font-family:serif;
+             width:5rem;}
+
+.underwater-image1-box:hover{background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYrJ2L0N9ER_qLuWU-yyZBX_3eLiS8SKLIJw&s");
+                  background-size:cover;
+                  box-shadow:1px 1px 1px 1px grey;
+                  border-radius:15px;}
+
+.underwater-image2-box{border:none;
+            display:block;
+            padding:2rem;
+            width:19rem;
+            margin:1rem;}
+
+.underwater-image2-text{border:2px outset grey;
+             border-radius:8px;
+             margin:01rem 0rem 0rem 6.4rem;
+             padding:0rem 0rem 0.4rem 0.5rem;
+             font-size:1.5rem;
+             font-family:serif;
+             width:4rem;}
+
+.underwater-image2-box:hover{background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYrJ2L0N9ER_qLuWU-yyZBX_3eLiS8SKLIJw&s");
+                  background-size:cover;
+                  box-shadow:1px 1px 1px 1px grey;
+                  border-radius:15px;}
+
+.underwater-image3-box{border:none;
+            display:block;
+            padding:2rem;
+            width:19rem;
+            margin:1rem;}
+
+.underwater-image3-text{border:2px outset grey;
+             border-radius:8px;
+             margin:1rem 0rem 0rem 7rem;
+             padding:0rem 0.4rem;
+             font-size:1.5rem;
+             font-family:serif;
+             width:2.8rem;}
+
+.underwater-image3-box:hover{background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYrJ2L0N9ER_qLuWU-yyZBX_3eLiS8SKLIJw&s");
+                  background-size:cover;
+                  box-shadow:1px 1px 1px 1px grey;
+                  border-radius:15px;}
+
+.underwater-image4-box{border:none;
+            display:block;
+            padding:2rem;
+            width:20rem;
+            margin:1rem;}
+
+.underwater-image4-text{border:2px outset grey;
+             border-radius:8px;
+             margin:1.5rem 0rem 0rem 6rem;
+             padding:0rem 0.4rem;
+             font-size:1.5rem;
+             font-family:serif;
+             width:4rem;}
+
+.underwater-image4-box:hover{background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYrJ2L0N9ER_qLuWU-yyZBX_3eLiS8SKLIJw&s");
+                  background-size:cover;
+                  box-shadow:1px 1px 1px 1px grey;
+                  border-radius:15px;}
+
+.underwater-image5-box{border:none;
+            display:block;
+            padding:2rem;
+            width:18rem;
+            margin:1rem;}
+
+.underwater-image5-text{border:2px outset grey;
+             border-radius:8px;
+             margin:1rem 0rem 0rem 5.5rem;
+             padding:0rem 0.4rem;
+             font-size:1.5rem;
+             font-family:serif;
+             width:5.5rem;}
+
+.underwater-image5-box:hover{background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYrJ2L0N9ER_qLuWU-yyZBX_3eLiS8SKLIJw&s");
+                  background-size:cover;
+                  box-shadow:1px 1px 1px 1px grey;
+                  border-radius:15px;}
+
+.underwater-image6-box{border:none;
+            display:block;
+            padding:2rem;
+            width:17.2rem;
+            margin:1rem;}
+
+.underwater-image6-text{border:2px outset grey;
+             border-radius:8px;
+             margin:1rem 0rem 0rem 6.4rem;
+             padding:0rem 0.4rem;
+             font-size:1.5rem;
+             font-family:serif;
+             width:5rem;}
+
+.underwater-image6-box:hover{background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYrJ2L0N9ER_qLuWU-yyZBX_3eLiS8SKLIJw&s");
+                  background-size:cover;
+                  box-shadow:1px 1px 1px 1px grey;
+                  border-radius:15px;}
+
+.underwater-image7-box{border:none;
+            display:block;
+            padding:2rem;
+            width:17.8rem;
+            margin:1rem;}
+
+.underwater-image7-text{border:2px outset grey;
+             border-radius:8px;
+             margin:0.5rem 0rem 0rem 6.6rem;
+             padding:0rem 0.4rem;
+             font-size:1.5rem;
+             font-family:serif;
+             width:3.5rem;}
+
+.underwater-image7-box:hover{background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYrJ2L0N9ER_qLuWU-yyZBX_3eLiS8SKLIJw&s");
+                  background-size:cover;
+                  box-shadow:1px 1px 1px 1px grey;
+                  border-radius:15px;}
+
+.underwater-image8-box{border:none;
+            display:block;
+            padding:2rem;
+            width:17.5rem;
+            margin:1rem;}
+
+.underwater-image8-text{border:2px outset grey;
+             border-radius:8px;
+             margin:0.5rem 0rem 0rem 4.5rem;
+             padding:0rem 0.4rem;
+             font-size:1.5rem;
+             font-family:serif;
+             width:6.1rem;}
+
+.underwater-image8-box:hover{background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYrJ2L0N9ER_qLuWU-yyZBX_3eLiS8SKLIJw&s");
+                  background-size:cover;
+                  box-shadow:1px 1px 1px 1px grey;
+                  border-radius:15px;}
+
+.underwater-image9-box{border:none;
+            display:block;
+            padding:2rem;
+            width:17.5rem;
+            margin:1rem;}
+
+.underwater-image9-text{border:2px outset grey;
+             border-radius:8px;
+             margin:0.5rem 0rem 0rem 6rem;
+             padding:0rem 0.4rem;
+             font-size:1.5rem;
+             font-family:serif;
+             width:5.3rem;}
+
+.underwater-image9-box:hover{background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYrJ2L0N9ER_qLuWU-yyZBX_3eLiS8SKLIJw&s");
+                  background-size:cover;
+                  box-shadow:1px 1px 1px 1px grey;
+                  border-radius:15px;}
+
+.underwater-image10-box{border:none;
+             display:block;
+             padding:2rem;
+            width:18rem;
+             margin:1rem;}
+
+.underwater-image10-text{border:2px outset grey;
+             border-radius:8px;
+             margin:0.5rem 0rem 0rem 6.5rem;
+             padding:0rem 0.4rem;
+             font-size:1.5rem;
+             font-family:serif;
+             width:2.5rem;}
+
+.underwater-image10-box:hover{background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYrJ2L0N9ER_qLuWU-yyZBX_3eLiS8SKLIJw&s");
+                  background-size:cover;
+                  box-shadow:1px 1px 1px 1px grey;
+                  border-radius:15px;}
+
+.underwater-image11-box{border:none;
+             display:block;
+             padding:2rem;
+            width:19rem;
+             margin:1rem;}
+
+.underwater-image11-text{border:2px outset grey;
+             border-radius:8px;
+             margin:0.5rem 0rem 0rem 6.7rem;
+             padding:0rem 0.5rem;
+             font-size:1.5rem;
+             font-family:serif;
+             width:5.9rem;}
+
+.underwater-image11-box:hover{background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYrJ2L0N9ER_qLuWU-yyZBX_3eLiS8SKLIJw&s");
+                  background-size:cover;
+                  box-shadow:1px 1px 1px 1px grey;
+                  border-radius:15px;}
+
+.underwater-image12-box{border:none;
+             display:block;
+             padding:2rem;
+            width:18rem;
+             margin:1rem;}
+
+.underwater-image12-text{border:2px outset grey;
+             border-radius:8px;
+             margin:0.5rem 0rem 0rem 6rem;
+             padding:0rem 0.4rem;
+             font-size:1.5rem;
+             font-family:serif;
+             width:6.2rem;}
+
+.underwater-image12-box:hover{background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYrJ2L0N9ER_qLuWU-yyZBX_3eLiS8SKLIJw&s");
+                  background-size:cover;
+                  box-shadow:1px 1px 1px 1px grey;
+                  border-radius:15px;}
+
+.underwater-image13-box{border:none;
+             display:block;
+             padding:2rem;
+            width:18.5rem;
+             margin:1rem;}
+
+.underwater-image13-text{border:2px outset grey;
+             border-radius:8px;
+             margin:0.5rem 0rem 0rem 5.8rem;
+             padding:0rem 0.4rem;
+             font-size:1.5rem;
+             font-family:serif;
+             width:6.6rem;}
+
+.underwater-image13-box:hover{background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYrJ2L0N9ER_qLuWU-yyZBX_3eLiS8SKLIJw&s");
+                  background-size:cover;
+                  box-shadow:1px 1px 1px 1px grey;
+                  border-radius:15px;}
+
+.underwater-image14-box{border:none;
+             display:block;
+             padding:2rem;
+            width:19rem;
+             margin:1rem;}
+
+.underwater-image14-text{border:2px outset grey;
+             border-radius:8px;
+             margin:0.5rem 0rem 0rem 6rem;
+             padding:0rem 0.4rem;
+             font-size:1.5rem;
+             font-family:serif;
+             width:3.7rem;}
+
+.underwater-image14-box:hover{background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYrJ2L0N9ER_qLuWU-yyZBX_3eLiS8SKLIJw&s");
+                  background-size:cover;
+                  box-shadow:1px 1px 1px 1px grey;
+                  border-radius:15px;}
+
+.underwater-image15-box{border:none;
+             display:block;
+             padding:2rem;
+            width:19rem;
+             margin:1rem;}
+
+.underwater-image15-text{border:2px outset grey;
+             border-radius:8px;
+             margin:0.5rem 0rem 0rem 5rem;
+             padding:0rem 0.4rem;
+             font-size:1.5rem;
+             font-family:serif;
+             width:7.7rem;}
+
+.underwater-image15-box:hover{background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYrJ2L0N9ER_qLuWU-yyZBX_3eLiS8SKLIJw&s");
+                  background-size:cover;
+                  box-shadow:1px 1px 1px 1px grey;
+                  border-radius:15px;}
+
+.creator{font-family:arial;}
+</style>
+</head>
+
+<body>
+
+<div class="underwater-page">
+
+<div class="underwater-image1-box">
+<img class="underwater-image1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4Z7LVk8eSGBgNalUVd160E6FLTc2_-1tWww&s" height="" width="">
+<p class="underwater-image1-text">Dolphin</p>
+</div>
+
+<div class="underwater-image2-box">
+<img class="underwater-image2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGoVgMnbglwduIL5NC9rjLhffkFzw_4-AEtA&s" height="" width="">
+<p class="underwater-image2-text">Turtle</p>
+</div>
+
+<div class="underwater-image3-box">
+<img class="underwater-image3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbt1YCP-KbDkeOoqoiOb1QruWxz41em1NolA&s" height="" width="">
+<p class="underwater-image3-text">Seal</p>
+</div>
+
+<div class="underwater-image4-box">
+<img class="underwater-image4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLaq8CFm4h76tFEnRSHJskep2IO7Z-Q8h7dQ&s" height="" width="">
+<p class="underwater-image4-text">Whale</p>
+</div>
+
+<div class="underwater-image5-box">
+<img class="underwater-image5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS30KYDHHF5k4-RRWZ6Cf8oKY2C35raSaVdaQ&s" height="" width="">
+<p class="underwater-image5-text">Star Fish</p>
+</div>
+
+<div class="underwater-image6-box">
+<img class="underwater-image6" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNewitpeO8wOI8QjDwaNvd746r5l3IVgbbIQ&s" height="" width="">
+<p class="underwater-image6-text">Octopus</p>
+</div>
+
+<div class="underwater-image7-box">
+<img class="underwater-image7" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS581k0harfaH0IDj5fSsaMBgxTnw5lYUNkxQ&s" height="" width="">
+<p class="underwater-image7-text">Shark</p>
+</div>
+
+<div class="underwater-image8-box">
+<img class="underwater-image8" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTz1GmbSuz_Qo0nblrCxz2ZV011LyJvx3--Q&s" height="" width="">
+<p class="underwater-image8-text">Swordfish</p>
+</div>
+
+<div class="underwater-image9-box">
+<img class="underwater-image9" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo0nFIgNNbrKBwThrRega7twnBw9EPKGowyg&s" height="" width="">
+<p class="underwater-image9-text">Cat Fish</p>
+</div>
+
+<div class="underwater-image10-box">
+<img class="underwater-image10" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfFCwKKClRq30-aI_1Tm3GaabMViMTZ8xJdQ&s" height="" width="">
+<p class="underwater-image10-text">Ray</p>
+</div>
+
+<div class="underwater-image11-box">
+<img class="underwater-image11" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQetIunRaH3YRMY6KqoUOZCP2iDxllCSX7Q8g&s" height="" width="">
+<p class="underwater-image11-text">Jelly Fish</p>
+</div>
+
+<div class="underwater-image12-box">
+<img class="underwater-image12" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5XA029kGhiOuVAZeFcdW12vw2gvWlxMuiOA&s" height="" width="">
+<p class="underwater-image12-text">Sea Horse</p>
+</div>
+
+<div class="underwater-image13-box">
+<img class="underwater-image13" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyHMY5miEQajQtvNvpPE4_I1rmpdXAqKFpCw&s" height="" width="">
+<p class="underwater-image13-text">Stone Fish</p>
+</div>
+
+<div class="underwater-image14-box">
+<img class="underwater-image14" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbX4etHA3OyPEffOr4yDMF_23ElOzrJMdrhA&s" height="" width="">
+<p class="underwater-image14-text">Snake</p>
+</div>
+
+<div class="underwater-image15-box">
+<img class="underwater-image15" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7TiP6RVOYyWX_GTxh7kIonSeHdqQw27SdfQ&s" height="" width="">
+<p class="underwater-image15-text">Electric Eel</p>
+</div>
+
+<div class="creator">
+<h1>This Page is Created By :-</h1>
+<h3>Riyaz Arif</h3>
+<h3>Roll No :- 23DPCS036HY</h3>
+</div>
+
+</div>
+
+
+
+</body>
+</html>
